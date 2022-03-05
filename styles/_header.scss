@@ -1,0 +1,28 @@
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // padding: 0 2rem;
+}
+
+header #brand-name{
+    color: $red;
+    font-family: "bebas neue";
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+
+
+header nav{
+    display: flex;
+
+    a{
+        color: $white;
+        transition: 400ms;
+        font-size: 1.2rem;
+        margin-right: 0.4rem;
+        &:hover{
+            color:aliceblue;
+        }
+    }
+}

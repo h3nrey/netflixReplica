@@ -1,0 +1,29 @@
+.tittle{
+    font-family: "bebas neue";
+}
+
+.white-text{
+    color: $white;
+}
+.gray-text{
+    color: $gray;
+}
+
+.button{
+    background-color: rgba(0,0,0,0.4);
+    border: 0;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: 500ms;
+    
+    &:hover{
+        background-color: $white;
+        color: $black;
+        transform: scale(1.1);
+    }
+}
+
+.container{
+    padding: 0 2rem;
+}

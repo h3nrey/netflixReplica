@@ -1,0 +1,13 @@
+//variables
+$red: #e50914;
+$black: #141414;
+$gray: #aaa;
+$white: aliceblue;
+
+//scss subfiles
+@import 'global';
+@import 'header';
+@import 'activeShow';
+@import 'usualClasses';
+@import 'showsCarrousel';
+@import 'responsive';

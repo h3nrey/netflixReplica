@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    text-decoration: none;
+}
+
+body{
+    background-color: $black;
+}
+
+footer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    p{
+        color:  $gray;
+
+        a{
+            color: $white;
+            transition: 100ms;
+            &:hover{
+                transform: scale(1.2);
+                font-weight: 700;
+            }
+        }
+    }
+}

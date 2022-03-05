@@ -1,0 +1,20 @@
+@media screen and(max-width: 700px) {
+    header .container{
+        flex-direction: column;
+    }
+
+    #active-show .container{
+        #active-show-buttons{
+            width: 15rem;
+            button{
+                width: 100%;
+                margin-top: 0.8rem;
+
+            }
+        }
+        .active-show-description{
+            max-width: 80%;
+            // margin-bottom: 2rem;
+        }
+    }
+}

@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: system-ui;
+  text-decoration: none;
+}
+
+body {
+  background-color: #141414;
+}
+
+footer {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 0;
+}
+
+footer p {
+  color: #aaa;
+}
+
+footer p a {
+  color: aliceblue;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+footer p a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  font-weight: 700;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header #brand-name {
+  color: #e50914;
+  font-family: "bebas neue";
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav a {
+  color: aliceblue;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  font-size: 1.2rem;
+  margin-right: 0.4rem;
+}
+
+header nav a:hover {
+  color: aliceblue;
+}
+
+#active-show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 30rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.089)), to(black)), url("https://www.themoviedb.org/t/p/original/roxKbz2DuOFEGWi80fPdKgzclwT.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.089), black 100%), url("https://www.themoviedb.org/t/p/original/roxKbz2DuOFEGWi80fPdKgzclwT.jpg");
+  background-size: cover;
+}
+
+#active-show .container {
+  margin-bottom: 5rem;
+}
+
+#active-show .active-show-tittle {
+  color: aliceblue;
+  font-size: 3rem;
+}
+
+#active-show .active-show-description {
+  max-width: 50%;
+  margin-bottom: 2rem;
+}
+
+#active-show .button {
+  margin-right: 1rem;
+}
+
+#active-show .button::first-letter {
+  margin-right: 0.5rem;
+}
+
+#active-show .button span {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  width: 1rem;
+  height: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: aliceblue;
+  border-radius: 100%;
+  color: #141414;
+}
+
+.tittle {
+  font-family: "bebas neue";
+}
+
+.white-text {
+  color: aliceblue;
+}
+
+.gray-text {
+  color: #aaa;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 0;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.button:hover {
+  background-color: aliceblue;
+  color: #141414;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.carrousel-show {
+  background-color: aqua;
+}
+
+.carrousel-show img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+  header .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #active-show .container #active-show-buttons {
+    width: 15rem;
+  }
+  #active-show .container #active-show-buttons button {
+    width: 100%;
+    margin-top: 0.8rem;
+  }
+  #active-show .container .active-show-description {
+    max-width: 80%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,42 @@
+#active-show{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    .container{
+        margin-bottom: 5rem;
+    }
+    
+    height: 30rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.089), rgba(0,0,0,1)100%), url("https://www.themoviedb.org/t/p/original/roxKbz2DuOFEGWi80fPdKgzclwT.jpg");
+    background-size: cover;
+
+    .active-show-tittle{
+        color: $white;
+        font-size: 3rem;
+    }
+
+    .active-show-description{
+        max-width: 50%;
+        margin-bottom: 2rem;
+    }
+
+    .button{
+        margin-right: 1rem;
+
+        &::first-letter{
+            margin-right: 0.5rem;
+        }
+
+        span{
+            display: inline-grid;
+            width: 1rem;
+            height: 1rem;
+            justify-content: center;
+            background-color:$white;
+            border-radius: 100%;
+            color: $black;
+        }
+    }
+}
